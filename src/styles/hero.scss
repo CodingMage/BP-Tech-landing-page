@@ -1,30 +1,39 @@
 .hero {
-  background: white;
+  background-color: white;
+  background-image: url("../svg/leaf.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  mix-blend-mode: darken;
 
   .containor {
     display: flex;
     justify-content: flex-end;
     .hero-content {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      //   grid-template-columns: 575px 1fr;
+      grid-template-columns: fit-content(56%) 1fr;
       padding-top: 96px;
       padding-bottom: 66px;
       padding-left: 71px;
-      width: 80vw;
+      width: 89vw;
+      gap: 55px;
 
       justify-content: right;
-      background: #f9f9f9;
+      background-color: rgb(249, 249, 249);
       border-radius: 35px 0px 0px 35px;
+      mix-blend-mode: multiply;
       &-one {
         &-head {
-          font-family: Playfair Display;
+          font-family: $playfair;
           //   font-family: $poppins;
           color: rgba(12, 12, 24, 1);
-
+          font-weight: 700;
           font-size: 60px;
           line-height: 70px;
           letter-spacing: 0em;
           text-align: left;
+          max-width: 576px;
         }
 
         &-sub {
@@ -36,6 +45,7 @@
           letter-spacing: 0em;
           text-align: left;
           margin-top: 16px;
+          max-width: 471px;
         }
         &-button {
           margin-top: 65px;
@@ -57,6 +67,24 @@
             text-align: center;
             color: rgba(255, 255, 255, 1);
             border-radius: 5px;
+          }
+        }
+      }
+
+      &-two {
+        &-img {
+          width: 377px;
+          height: 473px;
+          background-image: url("../svg/BG.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          border-radius: 40px;
+          position: relative;
+          img {
+            position: absolute;
+            bottom: -22px;
+            right: -30px;
           }
         }
       }

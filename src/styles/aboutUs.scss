@@ -1,0 +1,56 @@
+.whatWeDo {
+  .container-fluid {
+    .row {
+      padding-left: 113px;
+      padding-right: 113px;
+      padding-top: 109px;
+      gap: 126px;
+
+      .whatwedo-left {
+        padding-top: 20px;
+        img {
+          width: 100%;
+          max-width: 594px;
+          height: auto;
+        }
+      }
+
+      .whatwedo-right {
+        &-top {
+          font-family: $poppins;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 1.25px;
+          text-align: left;
+          color: rgba(0, 0, 0, 0.6);
+          margin-bottom: 8px;
+        }
+        &-head {
+          font-family: $playfair;
+          font-size: 40px;
+          line-height: 47px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: rgba(12, 12, 24, 1);
+          margin-bottom: 30px;
+          font-weight: 700;
+          max-width: 412px;
+        }
+        p {
+          max-width: 493px;
+          font-family: $poppins;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          letter-spacing: 0.15000000596046448px;
+          text-align: left;
+          color: rgba(0, 0, 0, 0.6);
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

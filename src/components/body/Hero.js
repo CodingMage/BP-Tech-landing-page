@@ -1,4 +1,5 @@
 import React from "react";
+import Ellipse from "../../svg/Ellipse.png";
 
 function Hero() {
   return (
@@ -18,7 +19,9 @@ function Hero() {
             </div>
           </div>
           <div className="hero-content-two">
-            <div className="hero-content-two-img"></div>
+            <div className="hero-content-two-img">
+              <img src={Ellipse} alt="Ellipse" />
+            </div>
           </div>
         </div>
       </div>
