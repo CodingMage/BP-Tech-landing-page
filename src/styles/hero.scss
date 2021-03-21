@@ -1,0 +1,65 @@
+.hero {
+  background: white;
+
+  .containor {
+    display: flex;
+    justify-content: flex-end;
+    .hero-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 96px;
+      padding-bottom: 66px;
+      padding-left: 71px;
+      width: 80vw;
+
+      justify-content: right;
+      background: #f9f9f9;
+      border-radius: 35px 0px 0px 35px;
+      &-one {
+        &-head {
+          font-family: Playfair Display;
+          //   font-family: $poppins;
+          color: rgba(12, 12, 24, 1);
+
+          font-size: 60px;
+          line-height: 70px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        &-sub {
+          font-family: $poppins;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 29px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-top: 16px;
+        }
+        &-button {
+          margin-top: 65px;
+          button {
+            background: rgba(82, 79, 161, 1);
+
+            height: 50px;
+            width: 197px;
+            left: 200px;
+            top: 462px;
+            border-radius: 0px;
+
+            font-family: $poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: rgba(255, 255, 255, 1);
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}

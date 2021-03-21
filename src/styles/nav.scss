@@ -1,0 +1,61 @@
+.nav {
+  background: $bluebg;
+
+  .container {
+    .row {
+      justify-content: space-between;
+      //   padding: 0 71px 0 117px;
+      align-items: center;
+      //   padding: 0 25px !important;
+      //   padding: 0 !important;
+      @include media(">=1080px", "<=desktop") {
+        padding: 0 !important;
+      }
+
+      .nav-brand {
+        display: flex;
+        align-items: center;
+        gap: 7.23px;
+        img {
+          width: 39.76px;
+          height: 39.77px;
+
+          @include media("<tablet") {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        h3 {
+          font-family: $poppins;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 54px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #ffffff;
+
+          @include media("<tablet") {
+            font-size: 25px;
+          }
+        }
+      }
+      .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 23px;
+
+        h3 {
+          font-family: $poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 26px;
+          letter-spacing: 2px;
+          text-align: right;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

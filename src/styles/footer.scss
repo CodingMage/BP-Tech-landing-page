@@ -1,0 +1,170 @@
+.footer {
+  background: $bluebg;
+  //   position: relative;
+  //   bottom: 0;
+  .container {
+    .contain-footer {
+      .footer-top {
+        padding: 117px 0 71px 0;
+        .footer-grid {
+          display: grid;
+          grid-template-columns: 182px 1fr 1fr 1fr;
+          //   display: flex;
+          //   flex: 0.3 0.15 0.15 0.4;
+
+          .footer-brand {
+            display: flex;
+            align-items: flex-start;
+            gap: 8.01px;
+            img {
+              height: 46px;
+              width: 45.99314498901367px;
+            }
+            .brand-text {
+              font-family: $poppins;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 48px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: white;
+            }
+          }
+        }
+
+        .footer-address {
+          display: flex;
+          flex-direction: column;
+          margin-left: 28px;
+          width: 180px;
+
+          &-head {
+            font-family: $poppins;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: $white;
+          }
+          p {
+            font-family: $poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 21px;
+          }
+        }
+        .footer-links {
+          display: flex;
+          flex-direction: column;
+          width: 180px;
+
+          &-head {
+            font-family: $poppins;
+            font-size: 19px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: $white;
+            margin-bottom: 21px;
+          }
+
+          p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-bottom: 13px;
+            color: rgba(255, 255, 255, 0.6);
+          }
+        }
+
+        .footer-form {
+          form {
+            display: flex;
+
+            input {
+              padding: 14px 0px 14px 16px;
+              height: 48px;
+              width: 242px;
+              border: none;
+              outline: none;
+            }
+
+            button {
+              height: 48px;
+              width: 142px;
+              left: 0px;
+              border: none;
+              background: rgba(198, 57, 115, 1);
+              padding: 16px 18px;
+              color: $white;
+
+              font-family: Poppins;
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 16px;
+              letter-spacing: 1.25px;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .divider {
+        height: 1px;
+        border: 1px solid rgba(151, 151, 151, 1);
+      }
+
+      .footer-bottom {
+        padding: 48px 0;
+        display: flex;
+        justify-content: space-between;
+        &-right {
+          display: flex;
+          gap: 21px;
+
+          .footer-rights {
+            font-family: $poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.6);
+          }
+
+          .footer-terms {
+            font-family: $poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.6);
+          }
+        }
+
+        &-left {
+          display: flex;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
