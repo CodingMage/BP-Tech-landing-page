@@ -1,5 +1,7 @@
 import React from "react";
 import AboutUs from "../../components/body/AboutUs";
+import Client from "../../components/body/Client";
+import Content from "../../components/body/Content";
 import Hero from "../../components/body/Hero";
 import Layout from "../../components/Layout";
 
@@ -8,6 +10,8 @@ function Home() {
     <Layout>
       <Hero />
       <AboutUs />
+      <Content />
+      <Client />
     </Layout>
   );
 }

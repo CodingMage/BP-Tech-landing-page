@@ -1,0 +1,36 @@
+.client {
+  &-head {
+    /* Title */
+
+    font-family: $poppins;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #0c0c18;
+    margin-bottom: 88.1px;
+    font-weight: 600;
+  }
+
+  .container {
+    .client-logos {
+      .logos1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 132px;
+      }
+
+      .logos2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 108.75px;
+        flex-direction: row-reverse;
+
+        img {
+          transform: scaleX(-1);
+        }
+      }
+    }
+  }
+}

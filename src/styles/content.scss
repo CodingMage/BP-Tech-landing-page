@@ -1,0 +1,124 @@
+.content {
+  padding-top: 71px;
+  margin-bottom: 79px;
+  &-head {
+    font-family: $playfair;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #0c0c18;
+    font-family: 700;
+    max-width: 381px;
+    margin: 0 auto;
+    padding-bottom: 71px;
+  }
+
+  &-others {
+    .container {
+      .content-grid {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+
+        .grid1 {
+          padding-top: 95px;
+
+          &-card {
+            &-head {
+              /* Profile */
+
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              gap: 18px;
+              margin-bottom: 14px;
+
+              h3 {
+                font-family: $poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19.1768px;
+                line-height: 29px;
+                text-align: right;
+                color: #0c0c18;
+              }
+            }
+            &-sub {
+              /* Life is like riding */
+
+              font-family: $poppins;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15.3973px;
+              line-height: 24px;
+              text-align: right;
+              letter-spacing: 0.15px;
+
+              color: rgba(0, 0, 0, 0.6);
+            }
+          }
+        }
+
+        .grid3 {
+          padding-top: 95px;
+          padding-left: 20x;
+          &-card {
+            &-head {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 14px;
+              margin-bottom: 14px;
+              h3 {
+                /* Pictures */
+
+                font-family: $poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 19.1768px;
+                line-height: 29px;
+                /* identical to box height */
+
+                color: #0c0c18;
+              }
+            }
+
+            &-sub {
+              /* Let us take you into */
+
+              font-family: $poppins;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 15.3973px;
+              line-height: 24px;
+              /* or 156% */
+              letter-spacing: 0.15px;
+
+              color: rgba(0, 0, 0, 0.6);
+            }
+          }
+        }
+      }
+
+      .content-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button {
+          height: 48px;
+          width: 180px;
+          background: rgba(82, 79, 161, 1);
+          appearance: none;
+          padding: 12px;
+          text-align: center;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          gap: 12px;
+        }
+      }
+    }
+  }
+}
